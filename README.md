@@ -30,13 +30,21 @@ This project demonstrates a FastAPI application using Beanie ODM (Object Documen
     cd fastapi-beanie
     ```
 
-2. Build and start the Docker containers:
+2. Setup and activate Virtual Environment
+
+- ```sh
+     virtualenv venv
+     source venv/bin.activate
+     ```
+
+4. Build and start the Docker containers:
 
     ```sh
     docker-compose up --build
     ```
 
-3. The FastAPI application will be available at `http://localhost:8000`.
+5. The FastAPI application will be available at `http://localhost:8000`.
+   
 
 ### API Endpoints ⚡
 
