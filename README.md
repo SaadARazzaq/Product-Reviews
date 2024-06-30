@@ -44,7 +44,7 @@ This project demonstrates a FastAPI application using Beanie ODM (Object Documen
 
 <img width="1171" alt="Screenshot 2024-06-30 at 4 08 40 AM" src="https://github.com/SaadARazzaq/Product-Reviews-API/assets/123338307/a29067cd-7627-4846-ab34-fcda264f73fb">
 
-### Example Product Review Model
+### Example Product Review Model Schema
 
 ```json
 {
@@ -56,7 +56,7 @@ This project demonstrates a FastAPI application using Beanie ODM (Object Documen
 }
 ```
 
-### Example Update Product Review Model
+### Example Update Product Review Model Schema
 
 ```json
 {
