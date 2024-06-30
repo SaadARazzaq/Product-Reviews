@@ -2,10 +2,15 @@
 
 This project demonstrates a FastAPI application using Beanie ODM (Object Document Mapper) for MongoDB. The project is containerized using Docker and Docker Compose for easy setup and deployment.
 
+## Project Demonstration 📹
+
+[![Product Reviews API](https://github.com/SaadARazzaq/Product-Reviews-API/assets/123338307/7960274c-5ac1-4726-96d2-367c99bf0896)](https://www.loom.com/share/bd94945efe2242eb8bbeda4b5ff4ec7a?sid=25e23587-d6e6-4b2e-b681-113c20004a93)
+
 ## Project Structure 🧱
 
 <img width="574" alt="Screenshot 2024-06-30 at 4 02 42 AM" src="https://github.com/SaadARazzaq/Product-Reviews-API/assets/123338307/c2d6ed5e-f235-4186-886e-4b545b3ca95e">
 <img width="275" alt="Screenshot 2024-06-30 at 3 57 41 AM" src="https://github.com/SaadARazzaq/Product-Reviews-API/assets/123338307/84f21262-6c58-48ad-a3b3-6c0f74112544">
+
 - **app/server/models/product_review.py**: Defines the `ProductReview` and `UpdateProductReview` models using `Beanie` and `Pydantic`.
 - **app/server/routes/product_review.py**: Contains the `API routes` for handling product reviews.
 - **app/server/app.py**: The main `FastAPI` application setup, including `route inclusion` and `database initialization`.
@@ -30,20 +35,13 @@ This project demonstrates a FastAPI application using Beanie ODM (Object Documen
     cd fastapi-beanie
     ```
 
-2. Setup and activate Virtual Environment
-
-- ```sh
-     virtualenv venv
-     source venv/bin.activate
-     ```
-
-4. Build and start the Docker containers:
+2. Build and start the Docker containers:
 
     ```sh
     docker-compose up --build
     ```
 
-5. The FastAPI application will be available at `http://localhost:8000`.
+3. The FastAPI application will be available at `http://localhost:8000`.
    
 
 ### API Endpoints ⚡
